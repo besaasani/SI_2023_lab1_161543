@@ -1,0 +1,42 @@
+prvo pravime 
+git init 
+git remote add https://github.com/besaasani/SI_2023_lab1_161543- se povrzuvame na lokalnioot repository
+git add README.md - dodavame text so ime prezime i indeks
+git commit -m "Initial commit"- pravime commit so toa poraka
+git push -u origin master - i pravime push na promenite
+
+
+git add SILab1.java- ja dodavame filot sto go kopiravme od linkot
+git commit -m "Add java class" - pravime commit so toa poraka
+git push -u origin master - i pravime push na promenite
+
+
+kreirame branches
+git branch bug1 
+git branch bug2
+git branch bug3
+
+git checkout bug1   -  odime vo bug1 
+otkako ke ja pravime pormenata na fileot
+git add SILab1.java   - dodavanje na java fileot
+git commit -m "Fix wrong loop for reading"   - commit so toa poraka 
+git push origin bug1 - pravime push na promenite vo bug1
+
+
+
+git checkout bug2  - odime vo bug2
+pravime promena na fileot
+git add SILab1.java  - dodavanje na java fileot
+git commit -m "Fix wrong condition in filterOddNumbers"   - commit so toa poraka
+git push origin bug2  - pravime push na promenite vo bug2
+
+git checkout bug3  - odime vo bug3
+go popravame fileot
+add SILab1.java - dodavanje na java fileot
+git commit -m "Fix method sumEvenNumbers"   - commit so toa poraka
+git push origin bug3  - pravime push na promenite vo bug3
+
+27. notepad log.txt i pravam past na toa sto mi ima ostanato na cmd (bidejki napraviv clear nekolku pati)
+notepad 1615413.txt pisuvam tuka
+posle add na dvete file i
+git push origin master
